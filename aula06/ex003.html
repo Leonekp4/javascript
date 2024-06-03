@@ -17,10 +17,12 @@
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quis cupiditate mollitia? Nemo magnam eum in id asperiores quae. Libero odio saepe neque ab officiis at cumque, quasi sunt quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
 
     <script>
-       // window.alert('Minha primeira mensagem')
-      //  window.confirm('Quer continuar?')
-       var nome = window.prompt('Qual é o seu nome?')
-       window.alert('É um grande prazer em te conhecer, ' + nome + '!')
+        var n1 = Number.parseFloat(window.prompt('Digite um numero: ')) //número parcial
+        var n2 = Number.parseInt(window.prompt('Digite outro numero: ')) // número inteiro
+        var n3 = Number(window.prompt('Digite outro numero: ')) // número inteiro e parcial
+        var s = n1 + n2 + n3
+      //  window.alert('A soma dos valores é: ' + s)
+        window.alert(`A soma entre ${n1}, ${n2} e ${n3} é igual a ${s}`)
     </script>
 </body>
 </html>
